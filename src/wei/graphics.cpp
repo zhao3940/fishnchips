@@ -11,7 +11,7 @@ void Graphics::load_shark(Shark *shark)
     shark->setPixmap(QPixmap(":/Object_image/blue_shark.png"));
 
 }*/
-void Graphics::load_shark(int width,int heigh,Shark *shark)
+void Graphics::load_shark(int width,int heigh,Shark::Shark *shark)
 {
     //shark->setPixmap(QPixmap(":/blue_shark.png"));
     QPixmap pixmap(":/steam.png");
